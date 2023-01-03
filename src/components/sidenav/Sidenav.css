@@ -1,0 +1,67 @@
+.sidenav {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  background-color: white;
+  z-index: 12;
+  transform: translateX(0%);
+  width: 300px;
+  transition: transform 5s;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.invisible {
+  transform: translateX(-100%);
+  transition: transform 1s;
+}
+
+.close-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--color-black);
+}
+
+.sidemenu-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidemenu-active {
+  font-size: 20px;
+  padding: 10px 14px;
+  color: var(--color-lightgreen);
+  cursor: pointer;
+  border-bottom: 1px solid var(--color-black);
+}
+
+.sidemenu-inactive {
+  font-size: 20px;
+  padding: 10px 14px;
+  color: var(--color-primary);
+  cursor: pointer;
+  border-bottom: 1px solid var(--color-black);
+}
+
+.sidemenu-active:hover,
+.sidemenu-inactive:hover {
+  color: var(--color-lightgreen);
+}
+
+.bg-image {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 400px;
+}
+
+@media (max-width: 468px) {
+  .sidenav {
+    width: 220px;
+  }
+}

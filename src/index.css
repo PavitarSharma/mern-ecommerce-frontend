@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-primary: #364a15;
+  --color-lightgreen: #61CE70;
+  --color-gray: #e4e4d9;
+  --color-black: #000;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   width: 100%;
@@ -13,5 +20,4 @@ body {
 
 a {
   text-decoration: none;
-
 }

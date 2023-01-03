@@ -1,0 +1,81 @@
+.carousel-1 {
+  background: url("images/banner-proteus-1.jpg") no-repeat center;
+
+}
+
+.carousel-2 {
+  background: url("images/banner-SF21-1.jpg") no-repeat center;
+
+}
+
+.carousel-3 {
+  background: url("images/banner-millets-1.jpg") no-repeat center;
+
+}
+
+.carousel-1,
+.carousel-2,
+.carousel-3 {
+  height: 70vh;
+  padding: 10.875rem 0 9.375rem 5rem;
+  background-size: cover;
+  height: 70vh;
+
+}
+
+.banner {
+  color: #fff;
+}
+
+.banner-btn {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 22px;
+}
+
+.banner-btn span {
+  color: #d8d820;
+  font-size: 30px;
+}
+
+.banner-btn:hover span {
+  margin-left: 4px;
+}
+
+.carousel-icon {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+@media (max-width: 768px) {
+  .carousel-1,
+  .carousel-2,
+  .carousel-3 {
+    height: 50vh;
+    padding: 4.875rem 0 6.375rem;
+  }
+
+  .carousel-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 468px) {
+  .carousel-1,
+  .carousel-2,
+  .carousel-3 {
+    padding: 2.875rem 0 5.375rem;
+  }
+
+  .carousel-icon {
+    display: none;
+  }
+
+  .banner > p {
+    font-size: 14px;
+  }
+}
