@@ -11,6 +11,9 @@
   --color-lightgreen: #61CE70;
   --color-gray: #e4e4d9;
   --color-black: #000;
+  --color-white: #fff;
+  --color-gray-2: #919c93;
+  --color-yellow: #be9103;
 }
 
 body {

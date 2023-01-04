@@ -8,17 +8,17 @@ const Banner = () => {
     <div>
       <div
         id="carouselExampleInterval"
-        class="carousel slide"
+        className="carousel slide"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner">
-          <div class="carousel-item  active">
+        <div className="carousel-inner">
+          <div className="carousel-item  active">
             <div className="carousel-1">
               <div className="container">
                 <div className="row">
                   <div className="col-lg-5 col-md-6">
                     <div className="banner">
-                      <h1 className="text-capitalize">Proteus</h1>
+                      <h1 className="fs-1 text-capitalize">Proteus</h1>
                       <p className="text-capitalize fs-sm-5">
                         Everyday health drink
                       </p>
@@ -33,13 +33,13 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <div className="carousel-2">
               <div className="container">
                 <div className="row">
                   <div className="col-12">
                     <div className="banner">
-                      <h1 className="text-capitalize">Natural Cena SF12</h1>
+                      <h1 className="fs-1 text-capitalize">Natural Cena SF12</h1>
                       <p className="text-capitalize fs-sm-5">
                         The complexity natural cena sf21 - <br />
                         Day-to-Day Nourishmentfor mind &#8211; Body & Soul
@@ -55,13 +55,13 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <div className="carousel-3">
               <div className="container">
                 <div className="row d-flex">
                   <div className="col-12">
                     <div className="banner">
-                      <h1 className="text-capitalize">Millet Mix Meal</h1>
+                      <h1 className="fs-1 text-capitalize">Millet Mix Meal</h1>
                       <p className="text-capitalize fs-sm-5">
                         The wholesome Millet Mix meal &#8211; Daily Bowl of
                         health
