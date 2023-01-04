@@ -1,0 +1,19 @@
+.home {
+    opacity: 0.5;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--color-black);
+}
+
+.home:hover {
+    opacity: 1;
+    color: var(--color-black);
+}
+
+.page {
+    color: var(--color-yellow);
+    font-size: 19px;
+    font-weight: 400;
+    cursor: pointer;
+}

@@ -95,8 +95,8 @@ const Footer = () => {
           </div>
 
           <div className="row mt-5">
-            <div className="col-6">
-              <p className="yellow-color fs-5">© 2022 Cena Nutrition All rights reserved by Cena.care</p>
+            <div className="col-md-6 col-12">
+              <p className="yellow-color text-md-start text-center fs-5">© {new Date().getFullYear()} Cena Nutrition All rights reserved by Cena.care</p>
             </div>
           </div>
         </div>

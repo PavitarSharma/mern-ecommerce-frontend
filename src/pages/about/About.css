@@ -1,0 +1,98 @@
+.yellow-color {
+  color: var(--color-yellow);
+}
+
+.section-1-title {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: inherit;
+  font-weight: 700;
+}
+
+.section-1-description {
+  width: 50%;
+  color: #4a4d4a;
+  line-height: 1.8rem;
+  letter-spacing: 1px;
+}
+
+/* team */
+.team-image {
+  position: relative;
+  width: 300px;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+
+.team {
+  border-radius: 10px;
+}
+
+.team-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.team-head {
+  position: relative;
+}
+
+.team-image:hover {
+  transform: translateY(-10px);
+}
+
+.team-body {
+  position: absolute;
+  bottom: 0;
+  background-color: var(--color-white);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 16px 10px;
+  width: 250px;
+}
+
+.team-body .team-role {
+  opacity: 0.5;
+}
+
+.team-description {
+  display: block;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.infrastructure {
+  margin-top: 100px !important;
+}
+.infrastructure-image {
+    height: 300px;
+    width: 100%;
+}
+
+.infrastructure-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.farmer-logo {
+    margin: 150px 0 100px;
+}
+
+.logo-images {
+    height: 200px;
+}
+
+@media (max-width: 768px) {
+  .section-1-description {
+    width: 100%;
+  }
+
+  .infrastructure-image {
+    height: 400px;
+    width: 400px;
+  }
+}
