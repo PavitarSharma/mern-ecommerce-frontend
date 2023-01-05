@@ -164,3 +164,78 @@ export const farmerImages = [
     alt: "farmer-logo-16",
   },
 ];
+
+export const organicData = [
+  {
+    id: 1,
+    image: "images/blog/organic-1.jpg",
+    title: "Keep the Green Out of the Potato",
+    date: "December 31, 2019",
+    discription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et sapien velit. Quisque id sagittis odio pulvinar ex vitae viverra aliquam. Vestibulum vitae dapibus nulla. Aliquam erat volutpat. Ut at vulputate diam, posuere interdum risus. Etiam mollis, sapien quis pulvinar tempus, massa mi vestibulum tellus, in aliquam sem eros quis enim.",
+  },
+  {
+    id: 2,
+    image: "images/blog/organic-2.jpg",
+    title: "Healthiest Beans and Legumes",
+    date: "February 8, 2020",
+    discription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et sapien velit. Quisque id sagittis odio pulvinar ex vitae viverra aliquam. Vestibulum vitae dapibus nulla. Aliquam erat volutpat. Ut at vulputate diam, posuere interdum risus. Etiam mollis, sapien quis pulvinar tempus, massa mi vestibulum tellus, in aliquam sem eros quis enim.",
+  },
+  {
+    id: 3,
+    image: "images/blog/organic-3.jpg",
+    title: "Healthiest Vegetables on Earth",
+    date: "February 8, 2020",
+    discription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et sapien velit. Quisque id sagittis odio pulvinar ex vitae viverra aliquam. Vestibulum vitae dapibus nulla. Aliquam erat volutpat. Ut at vulputate diam, posuere interdum risus. Etiam mollis, sapien quis pulvinar tempus, massa mi vestibulum tellus, in aliquam sem eros quis enim.",
+  },
+  {
+    id: 4,
+    image: "images/blog/organic-4.jpg",
+    title: "A Healthier Cooking Oil",
+    date: "February 8, 2020",
+    discription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et sapien velit. Quisque id sagittis odio pulvinar ex vitae viverra aliquam. Vestibulum vitae dapibus nulla. Aliquam erat volutpat. Ut at vulputate diam, posuere interdum risus. Etiam mollis, sapien quis pulvinar tempus, massa mi vestibulum tellus, in aliquam sem eros quis enim.",
+  },
+  {
+    id: 5,
+    image: "images/blog/organic-5.jpg",
+    title: "Work-Friendly Lunch Recipes",
+    date: "February 8, 2020",
+    discription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et sapien velit. Quisque id sagittis odio pulvinar ex vitae viverra aliquam. Vestibulum vitae dapibus nulla. Aliquam erat volutpat. Ut at vulputate diam, posuere interdum risus. Etiam mollis, sapien quis pulvinar tempus, massa mi vestibulum tellus, in aliquam sem eros quis enim.",
+  },
+  {
+    id: 6,
+    image: "images/blog/organic-6.jpg",
+    title: "This Doctor Is Also a Farmer",
+    date: "February 8, 2020",
+    discription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et sapien velit. Quisque id sagittis odio pulvinar ex vitae viverra aliquam. Vestibulum vitae dapibus nulla. Aliquam erat volutpat. Ut at vulputate diam, posuere interdum risus. Etiam mollis, sapien quis pulvinar tempus, massa mi vestibulum tellus, in aliquam sem eros quis enim.",
+  },
+  {
+    id: 7,
+    image: "images/blog/organic-7.jpg",
+    title: "Drinking Water in the Morning",
+    date: "February 8, 2020",
+    discription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et sapien velit. Quisque id sagittis odio pulvinar ex vitae viverra aliquam. Vestibulum vitae dapibus nulla. Aliquam erat volutpat. Ut at vulputate diam, posuere interdum risus. Etiam mollis, sapien quis pulvinar tempus, massa mi vestibulum tellus, in aliquam sem eros quis enim.",
+  },
+  {
+    id: 8,
+    image: "images/blog/organic-8.jpg",
+    title: "Friendly Breakfast Ideas",
+    date: "February 8, 2020",
+    discription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et sapien velit. Quisque id sagittis odio pulvinar ex vitae viverra aliquam. Vestibulum vitae dapibus nulla. Aliquam erat volutpat. Ut at vulputate diam, posuere interdum risus. Etiam mollis, sapien quis pulvinar tempus, massa mi vestibulum tellus, in aliquam sem eros quis enim.",
+  },
+  {
+    id: 9,
+    image: "images/blog/organic-9.jpg",
+    title: "Simple and Delicious Keto Salads",
+    date: "February 8, 2020",
+    discription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et sapien velit. Quisque id sagittis odio pulvinar ex vitae viverra aliquam. Vestibulum vitae dapibus nulla. Aliquam erat volutpat. Ut at vulputate diam, posuere interdum risus. Etiam mollis, sapien quis pulvinar tempus, massa mi vestibulum tellus, in aliquam sem eros quis enim.",
+  },
+];

@@ -18,7 +18,7 @@ const Banner = () => {
                 <div className="row">
                   <div className="col-lg-5 col-md-6">
                     <div className="banner">
-                      <h1 className="fs-1 text-capitalize">Proteus</h1>
+                      <h1 className="text-capitalize">Proteus</h1>
                       <p className="text-capitalize fs-sm-5">
                         Everyday health drink
                       </p>
@@ -39,7 +39,7 @@ const Banner = () => {
                 <div className="row">
                   <div className="col-12">
                     <div className="banner">
-                      <h1 className="fs-1 text-capitalize">Natural Cena SF12</h1>
+                      <h1 className="text-capitalize">Natural Cena SF12</h1>
                       <p className="text-capitalize fs-sm-5">
                         The complexity natural cena sf21 - <br />
                         Day-to-Day Nourishmentfor mind &#8211; Body & Soul

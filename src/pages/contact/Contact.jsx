@@ -26,7 +26,7 @@ const Contact = () => {
       <section className="my-5">
         <div className="container">
           <div className="row">
-            <div className="col-md-3 col-sm-2 col-12">
+            <div className="col-md-3 col-12">
               <div className="box-1">
                 <p className="text-center fs-4">Address</p>
                 <p className="box-subtitle">
@@ -35,19 +35,19 @@ const Contact = () => {
                 </p>
               </div>
             </div>
-            <div className="ccol-md-3 col-sm-2 col-12">
+            <div className="col-md-3 col-12">
               <div className="box-2">
                 <p className="text-center fs-4">Phone</p>
                 <p className="box-subtitle">+918798562345</p>
               </div>
             </div>
-            <div className="col-md-3 col-sm-2 col-12">
+            <div className="col-md-3 col-12">
               <div className="box-3">
                 <p className="text-center fs-4">Email</p>
                 <p className="box-subtitle">getintouch@cena.care</p>
               </div>
             </div>
-            <div className="col-md-3 col-sm-2 col-12">
+            <div className="col-md-3 col-12">
               <div className="box-4">
                 <p className="text-center fs-4">Working hours</p>
                 <p className="box-subtitle">

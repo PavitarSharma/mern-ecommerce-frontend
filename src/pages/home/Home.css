@@ -117,7 +117,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center right;
+}
+@media (max-width: 990px) {
+  .section-description h2 {
+    text-align: start;
+    margin-bottom: 40px;
+  }
 
+  .section-description h2::after {
+    width: 130px;
+    left: 0;
+
+  }
 }
 
 @media (max-width: 768px) {
@@ -130,6 +141,7 @@
 
   .section-description h2 {
     text-align: start;
+    margin-bottom: 20px;
   }
 
   .section-description h2::after {
