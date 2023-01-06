@@ -6,16 +6,20 @@ const Search = ({ closeSearchedBar }) => {
   return (
     <>
       <div className="container-fluid search-bar py-4">
-        <div className="container search">
+        <div className="container">
           <form className="search-input-form">
             <input
               type="text"
               className="search-input"
               placeholder="Search..."
             />
-            <FiSearch size={24} className="search-icon" />
+            <button>
+              <FiSearch size={24} className="search-icon" />
+            </button>
+            <button>
+              <AiOutlineClose onClick={closeSearchedBar} size={24} />
+            </button>
           </form>
-          <AiOutlineClose onClick={closeSearchedBar} size={24} />
         </div>
       </div>
     </>

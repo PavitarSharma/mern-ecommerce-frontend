@@ -1,0 +1,30 @@
+
+
+.account-description,
+.account-desc-title {
+  color: #7e7b7b;
+  font-size: 18px;
+  line-height: 2rem;
+  letter-spacing: 1px;
+}
+
+.account-desc-title span {
+  color: #111;
+}
+
+.account-description a,
+.account-desc-title a {
+  color: #111;
+}
+
+.account-description a:hover,
+.account-desc-title a:hover {
+  color: var(--color-lightgreen);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .account-title {
+    font-size: 42px;
+  }
+}

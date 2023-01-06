@@ -25,3 +25,18 @@ body {
 a {
   text-decoration: none;
 }
+input {
+  outline: none;
+}
+
+button{
+  border: none;
+  outline: none;
+}
+input:focus {
+  box-shadow: none !important;
+}
+
+.yellow-color {
+  color: var(--color-yellow);
+}

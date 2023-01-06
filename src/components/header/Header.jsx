@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink, Link, useNavigate } from "react-router-dom";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
 import { FiUsers, FiSearch } from "react-icons/fi";
 import { GrLanguage } from "react-icons/gr";
@@ -11,6 +11,7 @@ import Search from "../searchbar/Search";
 import { useState } from "react";
 import Sidenav from "../sidenav/Sidenav";
 const Header = () => {
+  const navigate = useNavigate()
   const [openSearchBar, setOpenSearchBar] = useState(false);
   const [openSideNav, setOpenSideNav] = useState(false);
   const closeSearchedBar = () => setOpenSearchBar(false);
@@ -37,7 +38,7 @@ const Header = () => {
                     <FiSearch size={26} onClick={openSearchedBar} />
                     <p className="mb-0 d-md-block d-none fs-5">Search</p>
                   </div>
-                  <div className="d-flex align-items-center  gap-10">
+                  <div className="d-flex align-items-center  gap-10" onClick={() => navigate("/my-account")} style={{ cursor: "pointer"}}>
                     <FiUsers size={26} />
                     <p className="mb-0 fs-5 d-md-block d-none">Account</p>
                   </div>

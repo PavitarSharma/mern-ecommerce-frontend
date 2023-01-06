@@ -1,0 +1,35 @@
+.edit-form {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.password-icon {
+  display: block;
+  position: absolute;
+  top: 34%;
+  right: 20px;
+  color: #000;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.hide-password {
+  color: var(--color-gray-2);
+}
+
+.edit-btn {
+  border: 1px solid var(--color-gray-2);
+  background-color: var(--color-gray);
+  color: var(--color-black);
+  padding: 14px 30px;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: background-color 0.4s;
+  margin: 30px 0;
+}
+
+.edit-btn:hover {
+  background-color: transparent;
+  opacity: 0.8;
+}
